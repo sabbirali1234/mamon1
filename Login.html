@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header class="header-sec">
+    <nav class="nav-sec">
+        <div class="container">
+            <div class="nav-main-div">
+                <div class="nav-child-div">
+                    <a href=""><img src="image/logo-light.png" alt=""></a>
+                </div>
+                <div class="nav-child-div nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About-Us.html">About Us</a></li>
+                        <li><a href="Cars.html">Cars</a></li>
+                        <li><a href="Booking.html">Booking</a></li>
+                        <div class="dropdown-1">
+                        <li><a  href="">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+                            <div class="dropdown-2">
+                                <li class="drop"><a  href="Contact.html">Contact </a></li>
+                                <li class="drop"><a  href="Login.html">Login</a></li>
+                                <li class="drop"><a  href="Register.html">Register</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="nav-child-div nav">
+                    <a class="cmn-btn" href="Sign-In.html">Sign In</a>
+                </div>
+                <div class="nav-bar">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+            <div class="nav-2-main-div">
+                <div class=" nav-2-child-div">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About-Us.html">About Us</a></li>
+                        <li><a href="Cars.html">Cars</a></li>
+                        <li><a href="Booking.html">Booking</a></li>
+                        <div class="dropdown-1">
+                            <li><a href="">Pages <i class="fa-solid fa-angle-down"></i></a></li>
+                            <div class="dropdown-2">
+                                <li><a href="Contact.html">Contact </a></li>
+                                <li><a href="Login.html">Login</a></li>
+                                <li><a href="Register.html">Register</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div style="margin-top: 20px;" class="nav-2-child-div">
+                    <a class="cmn-btn" href="Sign-In.html">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="Sign-sec">
+        <div class="wraapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="inpuut-box">
+                    <input type="text" placeholder="Username" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="inpuut-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">remember me</label>
+                    <a href="">forgot password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a href="">register</a></p>
+                    
+                </div>
+            </form>
+        </div>
+    </section>
+</header>
+
+
+<!-- js -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".down1").click(function(){       
+         $(".my-div1").toggle();                
+        });
+
+        $(".down2").click(function(){       
+         $(".my-div2").toggle();                
+        });
+
+        $(".down3").click(function(){       
+         $(".my-div3").toggle();                
+        });
+
+        $(".down4").click(function(){       
+         $(".my-div4").toggle();                
+        });
+
+        $(".down5").click(function(){       
+         $(".my-div5").toggle();                
+        });
+
+        $(".down6").click(function(){       
+         $(".my-div6").toggle();                
+        });
+
+
+
+
+        $(".nav-bar").click(function(){       
+         $(".nav-2-main-div").toggle();                
+        });
+     });
+</script>
+
+
+
+    <script src=""></script>
+</body>
+</html>

@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Rubik+Wet+Paint&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+   padding: 0px!important;
+}
+
+
+
+.a{
+   font-family: "Nunito Sans", serif;
+   font-family: "Josefin Sans", sans-serif;
+   background-color:rgb(30, 203, 21);
+}
+
+
+/* common-sec */
+
+
+@media (min-width:1200px) {
+   .container{
+   max-width:1220px ;
+   width: 1200px;
+   margin:auto;  
+   padding: 0px 10px;
+   }
+}
+
+
+@media (max-width:1200px) and (min-width:991px) {
+    .container{
+    width: 960px;
+    margin: auto;  
+    padding: 0px 10x;
+    }
+ }
+ 
+ @media (max-width:991px) and (min-width:768px) {
+    .container{
+    width: 720px;
+    margin: auto;  
+    padding: 0px 10x;
+    }
+ }
+ 
+ @media (max-width:768px) and (min-width:575px) {
+    .container{
+    width: 540px;
+    margin: auto;  
+    padding: 0px 10x;
+    }
+ }
+ 
+ @media (max-width:575px) and (min-width:01px) {
+    .container{
+    width: 100%;
+    margin: auto;  
+    padding: 0px 10x;
+    }
+ }
+
+ .cmn-head{
+   text-align: center;
+   font-family: "Nunito Sans", serif;
+   font-size: 38px;
+   font-weight: 700;
+   color: #f8f9fa;
+ }
+
+ .cmn-span{
+   text-align: center;
+   font-family: "Nunito Sans", serif;
+   font-size: 18px;
+   font-weight: 500;
+   color: rgb(30, 203, 21);
+   display: block;
+ }
+
+.cmn-para{
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 14px;
+   font-weight: 400;
+   color: #f8f9fa;
+   line-height:17px;
+}
+
+ .cmn-btn{
+   text-decoration: none;
+   background-color:rgb(30, 203, 21);
+   padding: 10px 25px;
+   border-radius: 10px;
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: #f8f9fa;
+ }
+ .cmn-btn:hover{
+   box-shadow: 0px 0px 20px -1px rgb(152, 247, 148);
+ }
+
+ 
+/* header-sec  */
+
+
+.header-sec{
+    background-image: url('../image/Cars-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 70%;
+ }
+ 
+ /* nav-sec */
+ 
+ @media (max-width:991px) and (min-width:769px){
+    .nav-child-div ul li{
+       padding: 0px 8px !important;
+    }
+    .nav-child-div a{
+       font-size: 15px !important;
+       letter-spacing: 0px !important;
+    }
+ }
+ @media (max-width:768px) and (min-width:576px){
+    .nav-child-div img {
+       width: 120px;
+    }
+    .nav-child-div ul li{
+       padding: 0px 5px !important;
+    }
+    .nav-child-div a{
+       font-size: 13px !important;
+       letter-spacing: 0px !important;
+    }
+    .cmn-btn{
+       padding: 8px 20px !important;
+    }
+ }
+ 
+ .fa-bars-staggered{
+    color:white;
+    font-size: 24px;
+    background-color: rgb(41, 169, 34);
+    padding: 10px 15px;
+    border-radius: 6px;
+ }
+ 
+ .nav-bar{
+    display: none;
+ }
+ 
+ .nav-2-main-div{
+    display: none;
+ }
+ 
+ .nav-2-child-div{
+    text-align: center;
+ }
+ 
+ .nav-2-child-div ul li{
+    list-style: none;
+    padding: 5px 0px;
+ }
+ 
+ .nav-2-child-div a{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+ }
+ 
+ 
+ @media (max-width:575px) and (min-width:01px) {
+    .nav-sec{
+       background-color:black;
+       padding: 15px 20px !important;
+    }
+    .nav-bar{
+       display: block
+    }
+    .nav{
+       display: none;
+    }
+    .banner-main-div h1{
+      font-size: 48px !important;
+    }
+ }
+ 
+ 
+ .nav-sec{
+    padding: 20px 0px;
+ }
+ 
+ .nav-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .nav-child-div ul{
+    display: flex;
+ }
+ 
+ .nav-child-div ul li{
+    list-style: none;
+    padding: 0px 15px;
+ }
+ 
+ .nav-child-div ul li:hover{
+    padding: 10px 20px;
+    background-color:rgba(234, 190, 190, 0.155);
+    border-radius: 10px;
+ }
+ 
+ .nav-child-div a{
+    text-decoration: none;
+    color: #f8f9fa;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+ }
+ 
+ .dropdown-2{
+    display: none;
+    position: absolute;
+    margin: 20px 15px;
+    background-color: black;
+    border-radius: 6px;
+    margin-top: 2px;
+ }
+ 
+ .dropdown-2 li{
+    margin: 15px 10px;
+ }
+ 
+ .dropdown-1:hover .dropdown-2{
+    display:inline-block;
+ }
+ 
+ 
+ /* banner-sec */
+ 
+ .banner-sec{
+   padding:70px  0px 390px  0px ;
+ }
+ 
+ .banner-main-div{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   position: relative;
+}
+
+.banner-main-div h1{
+   font-family: "Nunito Sans", serif;
+   font-size: 68px;
+   font-weight: 800;
+   position: absolute;
+   
+}
+
+.banner-main-div h1:nth-child(1){
+   color: transparent;
+   -webkit-text-stroke: 2px rgb(157, 236, 153);
+}
+.banner-main-div h1:nth-child(2){
+   color: rgb(15, 253, 2);
+   animation: animate 3s ease-in-out infinite;
+}
+
+@keyframes animate{
+   0%,100%{
+      clip-path:polygon(1% 45%, 85% -1%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+   }
+   50%{
+      clip-path:polygon(
+         0% 60%, 16% 65%, 34% 66%, 51% 52%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+   }
+}
+ 
+ /* Car-Rent-Now */
+
+@media (max-width:1440px) and (min-width:1200px){
+    .Car-Rent-inner-child{
+       width: 23% !important;
+    }
+    .Car-Rent-inner1 img{
+       width: 100% !important;
+    }
+ }
+ @media (max-width:1199px) and (min-width:992px){
+    .Car-Rent-inner-child{
+       width: 23% !important;
+    }
+    .Car-Rent-inner1 img{
+       width: 100% !important;
+    }
+    .Car-Rent-name{
+       padding-top: 5px !important;
+    }
+    .Car-sit{
+       padding: 10px 0px !important;
+    }
+    .Car-sit::after{
+       margin-top: 15px !important;
+    }
+    .Car-sit img{
+       margin:0px 3px !important;
+    }
+ }
+ 
+ @media (max-width:991px) and (min-width:769px){
+    .Car-Rent-child-div{
+       flex-wrap: wrap;
+    }
+    .Car-Rent-inner-child{
+       width: 47% !important;
+    }
+ }
+ @media (max-width:768px) and (min-width:575px){
+    .Car-Rent-child-div{
+       flex-wrap: wrap;
+    }
+    .Car-Rent-inner-child{
+       width: 46% !important;
+    }
+    .Car-Rent-inner1 img{
+       width: 100% !important;
+    }
+ }
+ @media (max-width:575px) and (min-width:01px){
+    .Car-Rent-child-div{
+       flex-wrap: wrap;
+    }
+    .Car-Rent-inner-child{
+       width: 100% !important;
+       text-align: center;
+    }
+    .Car-Rent-inner1 img{
+       width: 100% !important;
+    }
+ }
+ 
+ 
+ .Car-Rent-sec{
+    padding: 80px 0px 60px 0px;
+ }
+ 
+ .Car-Rent-child-div{
+    display: flex;
+ }
+ 
+ .Car-Rent-inner-child{
+    width: 25%;
+    padding:12px;
+    border-radius: 5px;
+    margin: 0px 10px  20px 10px;
+    box-shadow: 3px 3px 9px rgba(164, 164, 186, .5);
+ }
+ 
+ .Car-Rent-inner1{
+    overflow: hidden;
+    border-radius: 7px;
+ }
+ 
+ .Car-Rent-inner1 img{
+    width: 301px;
+    transition: .3s;
+    object-fit: cover;
+    display: block;
+ }
+ 
+ .Car-Rent-inner1:hover img{
+    scale: 1.1; 
+ }
+ 
+ .Car-Rent-inner2{
+    padding: 10px;
+ }
+ 
+ .Car-Rent-name{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding-top: 20px;
+ }
+ 
+ .fa-heart{
+    font-size: 14px;
+    margin-right: 5px;
+    color: grey;
+ }
+ 
+ .Car-sit{
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+ }
+ 
+ .Car-sit img{
+    width: 18px;
+    height: 13PX;
+    margin:0px 5px;
+ }
+ 
+ .Car-sit::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(30, 203, 21) ;
+    border-radius: 200% ;
+    margin-top: 30px;
+ }
+ 
+ .Rent-Now{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+ }
+ 
+ 
+ .Car-Rent-name{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+ }
+ 
+ .Car-sit span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+ }
+ 
+ .Rent-Now span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+ }
+ 
+ .Rent-Now a{
+    text-decoration: none;
+    background-color:rgb(30, 203, 21);
+    padding: 7px 13px;
+    border-radius: 6px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f8f9fa;
+ }
+
+
+ 
+/* News & Promo */
+
+@media (max-width:991px) and (min-width:769px){
+    .Promo-main-div{
+       flex-wrap: wrap;
+       display: flex;
+       justify-content: center;
+    }
+    .Promo-child-div{
+       width: 50% !important;
+       margin-bottom: 20px;
+    }
+ }
+ @media (max-width:768px) and (min-width:576px){
+    .Promo-main-div{
+       flex-wrap: wrap;
+    }
+    .Promo-child-div{
+       width: 100% !important;
+       margin-bottom: 20px;
+    }
+ }
+ @media (max-width:575px) and (min-width:01px){
+    .Promo-top-div{
+       padding: 0px 15px;
+    }
+    .Promo-main-div{
+       flex-wrap: wrap;
+    }
+    .Promo-child-div{
+       width: 100% !important;
+       margin-bottom: 20px;
+    }
+ }
+ 
+ .Promo-sec{
+    padding: 80px 0px;
+    background-color: black;
+ }
+ 
+ .Promo-top-div{
+    text-align: center;
+ }
+ 
+ .Promo-top-div p{
+    display: inline-block;
+    padding: 20px 0px;
+    max-width: 500px;
+ }
+ 
+ .Promo-main-div{
+    display: flex;
+ }
+ 
+ .Promo-child-div{
+    width: 33.33%;
+    padding:0px 10px;
+ }
+ 
+ .Promo-inner-child img{
+    width: 100%;
+    border-radius: 10px;
+ }
+ 
+ .Promo-inner-child span{
+    padding: 5px 15px;
+    background-color: white;
+    position: absolute;
+    margin: 10px;
+    border-radius: 3px;
+    
+ }
+ 
+ .Promo-inner-child span i{
+    color: gold;
+    font-size: 12px;
+ }
+ 
+ .Promo-inner-child1 {
+ background-color: black;
+ margin: 0px 30px;
+ position: relative;
+ margin-top: -50px;
+ border-radius: 7px;
+ padding: 15px;
+ text-align: center;
+ }
+ 
+ .Promo-inner-child1:hover{
+    box-shadow: 0px -10px 9px rgba(164, 164, 186, .5);
+ }
+ 
+ .Promo-inner-child1 h3{
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 300px;
+    color: #f8f9fa;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+ }
+ 
+ .Promo-inner-child1 p{
+    padding: 5px 0px 35px 0px;
+ }
+ 
+ .Promo-inner-child1 a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #f8f9fa;
+ }
+ 
+ .Promo-inner-child1 a:hover{
+    background-color: rgb(30, 203, 21);
+ }
+ 
+ .Promo-inner-child1::after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+    border: 1px solid rgb(30, 203, 21) ;
+    margin-top: 40px;
+ }
+ 
+ 
+ /* Have Any Questions? */
+ 
+ @media (max-width:991px) and (min-width:769px){
+    .Questions-child-div h3{
+       font-size: 14px !important;
+       font-weight: 400 !important;
+    }
+ }
+ @media (max-width:768px) and (min-width:575px){
+    .Questions-main-div{
+       flex-wrap: wrap;
+    }
+    .Questions-child-div{
+       width: 100% !important;
+    }
+ }
+ 
+ @media (max-width:575px) and (min-width:01px){
+    .Questions-main-div{
+       flex-wrap: wrap;
+    }
+    .Questions-child-div{
+       width: 100% !important;
+    }
+    .Questions-child-div h3{
+       font-size: 10px !important;
+       font-weight: 400 !important;
+    }
+    .Questions-inner-chil i{
+       padding: 5px 8px !important;
+    }
+ }
+ 
+ .Questions-sec{
+    padding: 80px 0px;
+ }
+ 
+ .Questions-top-div{
+    text-align: center;
+ }
+ 
+ .Questions-top-div h2{
+    color: black;
+ }
+ 
+ .Questions-top-div p{
+    text-align: center;
+    display: inline-block;
+    padding: 20px 0px;
+    max-width: 882px;
+    color: black;
+ }
+ 
+ .Questions-main-div{
+    display: flex;
+ }
+ 
+ .Questions-child-div{
+    width: 50%;
+    padding: 0px 10px;
+ }
+ 
+ .Questions-inner-chil h3{
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+ }
+ 
+ .Questions-inner-chil{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+ }
+ 
+ .Questions-inner-chil i{
+    color: white;
+    padding: 8px 13px;
+    background-color: rgb(30, 203, 21);
+    border-radius: 5px;
+ }
+ 
+ .my-div{
+    display: none;
+ }
+ 
+ /* footer-sec */
+
+ @media (max-width:1199px) and (min-width:992px){
+   .Social-Network{
+      margin-bottom: 10px !important;
+   }
+}
+ 
+ @media (max-width:991px) and (min-width:575px){
+    .footer-main-div{
+       flex-wrap: wrap;
+    }
+    .footer-child-div{
+       width: 50% !important;
+       margin-bottom: 20px;
+    }
+ }
+ @media (max-width:575px) and (min-width:01px){
+    .footer-top-div{
+       text-align: center;
+    }
+    .footer-main-div{
+       flex-wrap: wrap;
+       text-align: center;
+    }
+    .footer-child-div{
+       width: 100% !important;
+       margin-bottom: 30px;
+    }
+    .footer-child-div p{
+       display: inline-block;
+    }
+ }
+ 
+ .footer-sec{
+    padding: 80px 0px;
+    background-color: black;
+ }
+ 
+ .footer-main-div{
+    display: flex;
+ }
+ 
+ .footer-child-div{
+    width: 25%;
+    padding: 0px 10px;
+ }
+ 
+ .footer-child-div ul li{
+    list-style: none;
+    padding: 5px 0px;
+ }
+ 
+ .footer-child-div a{
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    color: #f8f9fa ;
+ }
+ 
+ .footer-child-div p{
+    max-width: 292px;
+ }
+ 
+ .Contact-Info{
+    color: rgb(30, 203, 21);
+    margin-right: 15px;
+ }
+ 
+ .Social-Network{
+    color: rgb(30, 203, 21);
+    padding: 12px 17px;
+    background-color: rgba(234, 190, 190, 0.155);
+    border-radius: 10px;
+    display: inline-block;
+ }
+ 
+ .Social-Network:hover{
+    background-color: rgb(30, 203, 21);
+ }
+ 
+ .fa-facebook-f{
+    color: rgb(30, 203, 21);
+ }
+ 
+ .Social-Network:hover{
+    color: rgb(22, 21, 24);
+ }
+ 
+ .fa-twitter{
+    color: rgb(30, 203, 21);
+ }
+ 
+ .fa-linkedin-in{
+    color: rgb(30, 203, 21);
+ }
+ 
+ .fa-instagram{
+    color: rgb(30, 203, 21); 
+ }
+ 
+ .fa-pinterest{
+    color: rgb(30, 203, 21);
+ }
+ 
+ .footer-bottom-div{
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(30, 203, 21);
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 500;
+    color: rgba(120, 0, 20, 1);
+ }
+ 
+ .footer-child-div span{
+    font-family: "Lato", sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    color: #f8f9fa ;
+    padding: 20px 0px;
+    display: block;
+  }
+ 
+ /* The-end */
